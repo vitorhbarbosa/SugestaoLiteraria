@@ -1,0 +1,12 @@
+.sugestao {
+    padding: 0 15rem;
+    padding-top: 6rem;
+    background-color: var(--marrom-terciario);
+}
+
+.sugestao-titulo {
+    color: var(--branco);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}

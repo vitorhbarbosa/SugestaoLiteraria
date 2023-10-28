@@ -9,8 +9,8 @@
 }
 
 .explorar {
-    margin: 0 15rem;
-    margin-top: 6rem;
+    padding: 0 15rem;
+    padding-top: 6rem;
 }
 
 .explorar-titulo {
@@ -40,12 +40,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 
 .chips-item {
     color: var(--marrom-primario);
     background-color: var(--marrom-quaternario);
-    background-position: 8px;
+    background-position: 16px;
     background-repeat: no-repeat;
     background-size: 1.3rem;
     font-size: 1.3rem;
@@ -88,6 +89,7 @@
     color: var(--marrom-primario);
     font-size: 2.5rem;
     font-weight: 700;
+    margin-bottom: 3rem;
 }
 
 .container-livro {
@@ -98,25 +100,57 @@
 
 .container-livro-item {
     display: flex;
-    background-color: var(--branco);
+    background-color: #fefefe;
+    box-shadow: 12px 17px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    border-radius: 4px;
+    width: 47%;
+}
+
+.imagem-livro {
+    border-radius: 4px 0 0 4px;
+    width: 50%;
 }
 
 .livros-dados-externos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    line-height: 2;
+    line-height: 1.75;
+    padding: 1.25rem;
+    width: 50%;
 }
 
 .livro-categoria {
+    display: inline;
     background-color: var(--marrom-quaternario);
     color: var(--marrom-primario);
     font-size: 0.75rem;
     border-radius: 1000px;
     padding: 8px 4px;
+    font-weight: bold;
 }
 .livro-titulo {
     color: var(--marrom-primario);
-    font-size: 1.5;
+    font-size: 1.5rem;
     font-weight: 700;
+}
+
+.livro-autor {
+    background-image: url("../imagens/icones/feather 1.svg");
+    background-repeat: no-repeat;
+    padding-left: 32px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.botao-saiba-mais {
+    text-decoration: none;
+    color: var(--marrom-primario);
+    font-weight: bold;
+    background-image: url("../imagens/icones/Plus.svg");
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
 }

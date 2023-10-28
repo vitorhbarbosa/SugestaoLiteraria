@@ -2,6 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.fonteDiferente {
+    font-family: "Libre Baskerville", serif;
+}
+
 .navegador {
     background-color: var(--branco);
     padding: 1rem 15rem;
