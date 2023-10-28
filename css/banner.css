@@ -1,0 +1,40 @@
+.texto-banner {
+    color: var(--marrom-primario);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.banner-container {
+    width: 30%;
+    margin-left: 15rem;
+    padding: 7.5rem 0;
+}
+
+.banner-lista {
+    display: flex;
+}
+
+.banner-botao {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--marrom-secundario);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.banner-botao-sugestao {
+    border-radius: 4px;
+    background-image: url("../imagens/icones/Lightbulb.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px);
+    padding: 8px 12px;
+    padding-right: calc(1.2rem + 8px);
+    margin-left: 1rem;
+}
+
+.banner {
+    background-image: url("../imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
