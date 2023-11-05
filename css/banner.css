@@ -7,8 +7,8 @@
 
 .banner-container {
     width: 30%;
-    margin-left: 15rem;
-    padding: 4.5rem 0;
+    padding: 2rem 20%;
+
 }
 
 .banner-lista {
@@ -104,17 +104,33 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .texto-banner {
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
         color: var(--bege-claro);
     }
     .banner-lista {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
     .banner-botao {
-        padding: 4px 13px
+        padding: 5px 11px
+    }
+    .banner-botao-sugestao {
+        background-size: 15px;
+        padding-right: calc(1.2rem + 8px)
+    }
+}
+
+@media (max-width: 500px) {
+    .texto-banner {
+        font-size: 1rem;
+    }
+    .banner-lista {
+        font-size: 0.5rem;
+    }
+    .banner-botao {
+        padding: 3px 11px
     }
     .banner-botao-sugestao {
         background-size: 10px;

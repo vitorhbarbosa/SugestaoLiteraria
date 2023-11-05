@@ -30,8 +30,6 @@
       left: 0;
       background-color: #fff;
       width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
     }
     
     .navegador-lista-item {
@@ -39,4 +37,5 @@
       margin: 10px 0;
     }
 }
+
 

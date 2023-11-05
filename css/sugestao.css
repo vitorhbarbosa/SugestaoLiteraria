@@ -1,5 +1,5 @@
 .sugestao {
-    padding: 0 15rem;
+    padding: 0 15%;
     padding-top: 6rem;
     background-color: var(--marrom-terciario);
 }
@@ -29,6 +29,12 @@
 
 @media (max-width: 850px) {
     h2.sugestao-titulo {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h2.sugestao-titulo {
+        font-size: 1.3rem;
     }
 }

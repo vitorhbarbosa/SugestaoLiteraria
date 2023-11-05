@@ -9,8 +9,8 @@
 }
 
 .explorar {
-    padding: 0 15rem;
-    padding-top: 6rem;
+    padding: 0 15%;
+    padding-top: 2rem;
 }
 
 .explorar-titulo {
@@ -40,7 +40,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .chips-item {
@@ -367,13 +367,52 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .explorar-titulo {
         font-size: 1.2rem;
     }
     .explorar-pesquisa {
-        width: 80%;
+        width: 93%;
         height: 18px;
+        background-size: 13px;
+        font-size: 0.6rem;
+    }
+
+    h2.resultado-busca {
+        font-size: 1.2rem;
+    }
+    
+    .livro-categoria {
+        font-size: 1rem;
+    }
+    .livro-titulo {
+        font-size: 1.5rem;
+    }
+    .livro-autor {
+        background-size: 25px;
+        padding-left: 32px;
+        font-size: 1.5rem
+    }
+    .livro-texto {
+        font-size: 1.3rem;
+    }
+    .botao-saiba-mais {
+        background-size: 20px;
+        background-position: 50% 50%;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .cointainer-chips {
+        margin-bottom: 1rem;
+    }
+    .explorar-titulo {
+        font-size: 1.2rem;
+    }
+    .explorar-pesquisa {
+        width: 85%;
+        height: 10px;
         background-size: 13px;
         font-size: 0.6rem;
     }
@@ -398,7 +437,7 @@
     }
     .botao-saiba-mais {
         background-size: 10px;
-        background-position: 73% 50%;
+        background-position: 60% 50%;
         font-size: 0.6rem;
     }
 }

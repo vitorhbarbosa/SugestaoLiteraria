@@ -8,7 +8,7 @@ body {
 
 .navegador {
     background-color: var(--branco);
-    padding: 1rem 15rem;
+    padding: 1rem 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -82,7 +82,13 @@ body {
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+    .titulo-principal {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
     .titulo-principal {
         font-size: 0.9rem;
     }
