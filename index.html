@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/explorar.css">
     <link rel="stylesheet" href="css/sugestao.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/menu-hamburger.css">
 
 </head>
 
@@ -25,17 +26,25 @@
     <header>
         <nav class="navegador">
             <h1 class="titulo-principal fonteDiferente">Sugestão de Livros</h1>
-            <ul class="navegador-lista">
-                <li class="navegador-lista-item">
-                    <a class="texto-navegador" href="#banner">Início</a>
-                </li>
-                <li class="navegador-lista-item navegador-lista-item-central">
-                    <a class="texto-navegador" href="#categorias">Categoria</a>
-                </li>
-                <li class="navegador-lista-item navegador-lista-item-last">
-                    <a href="#sugestoes" class="botao-cabecalho texto-navegador">Sugestões</a>
-                </li>
-            </ul>
+            <!-- <button data-menu="button"></button> -->
+            <div class="menu-hamburguer">
+                <div class="hamburguer-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="navegador-lista" data-menu="list" id="menu">
+                    <li class="navegador-lista-item">
+                        <a class="texto-navegador" href="#banner">Início</a>
+                    </li>
+                    <li class="navegador-lista-item navegador-lista-item-central">
+                        <a class="texto-navegador" href="#categorias">Categoria</a>
+                    </li>
+                    <li class="navegador-lista-item navegador-lista-item-last">
+                        <a href="#sugestoes" class="botao-cabecalho texto-navegador">Sugestões</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -61,7 +70,7 @@
                 <h2 class="explorar-titulo fonteDiferente">Explore novas categorias</h2>
                 <input class="explorar-pesquisa" placeholder="Pesquisar categoria" type="text">
             </div>
-            <div class="cointainer-chips">
+            <div class="cointainer-chips scroll-container">
                 <button class="chips-item chip-tecnologia">Tecnologia</button>
                 <button class="chips-item chip-romance">Romance</button>
                 <button class="chips-item chip-suspense">Suspense</button>
@@ -182,7 +191,7 @@
     <footer class="rodape">
         <p class="rodape-texto"> Copyright © 2023 - Helen Amanda, Leticia Teixeira, Lucas de Araújo, Lucas Perrone, Maria Fernanda, Matheus Nascimento, Norma Oliveira, Vitor Hugo - Todos os direitos reservados</p>
     </footer>
-
+    <script type="text/javascript" src="menu-hamburger.js"></script>
 </body>
 
 </html>

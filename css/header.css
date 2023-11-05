@@ -45,3 +45,47 @@ body {
     padding-right: calc(1.2rem + 8px);
     color: var(--branco);
 }
+
+/* Responsivo */
+
+@media (max-width: 1200px) {
+    .titulo-principal {
+        font-size: 1.5rem;
+    }
+    .texto-navegador {
+        color: var(--marrom-primario);
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .botao-cabecalho {
+        color: var(--branco);
+        background-size: 15px;
+    }
+}
+
+/* MOBILE*/
+
+@media (max-width: 1000px) {
+    .titulo-principal {
+        font-size: 1rem;
+    }
+    .texto-navegador {
+        color: var(--marrom-primario);
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+    .botao-cabecalho {
+        color: var(--branco);
+        background-size: 13px;
+        padding: 6px 10px;
+        padding-right: calc(1rem + 8px);;
+    }
+}
+
+@media (max-width: 850px) {
+    .titulo-principal {
+        font-size: 0.9rem;
+    }
+}
+
+
