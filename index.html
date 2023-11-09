@@ -68,13 +68,12 @@
         <section class="explorar" id="explorar">
             <div class="container-pesquisa">
                 <h2 class="explorar-titulo fonteDiferente">Explore novas categorias</h2>
-                <input class="explorar-pesquisa" placeholder="Pesquisar categoria" type="text">
+                <input class="explorar-pesquisa" placeholder="Pesquisar categoria" type="text" id="caixaDePesquisa">
             </div>
             <div class="cointainer-chips scroll-container">
                 <button class="chips-item chip-tecnologia">Tecnologia</button>
                 <button class="chips-item chip-romance">Romance</button>
                 <button class="chips-item chip-suspense">Suspense</button>
-
                 <button class="chips-item chip-bibliografia">Bibliografia</button>
                 <button class="chips-item chip-educacao">Educação</button>
 
@@ -83,7 +82,7 @@
             <div class="container-resultado">
                 <h2 class="resultado-busca fonteDiferente">Resultados da busca:</h2>
 
-                <ul class="container-livro">
+                <ul class="container-livro" id="caixaDeLivros">
                     <li class="container-livro-item">
                         <img class="imagem-livro" src="imagens/livro.png" alt="">
                         <div class="livros-dados-externos">
@@ -191,7 +190,8 @@
     <footer class="rodape">
         <p class="rodape-texto"> Copyright © 2023 - Helen Amanda, Leticia Teixeira, Lucas de Araújo, Lucas Perrone, Maria Fernanda, Matheus Nascimento, Norma Oliveira, Vitor Hugo - Todos os direitos reservados</p>
     </footer>
-    <script type="text/javascript" src="menu-hamburger.js"></script>
 </body>
+<script type="text/javascript" src="menu-hamburger.js"></script>
+<script src="buscador.js" type="module"></script>
 
 </html>

@@ -30,3 +30,5 @@ function geraTemplate(
 
     return template;
 }
+
+export { geraTemplate };
