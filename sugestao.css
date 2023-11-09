@@ -1,0 +1,40 @@
+.sugestao {
+    padding: 0 15%;
+    padding-top: 6rem;
+    background-color: var(--marrom-terciario);
+}
+
+.sugestao-titulo {
+    color: var(--bege-claro);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+/* Responsivo */
+
+@media (max-width: 1500px) {
+    h2.sugestao-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    h2.sugestao-titulo {
+        font-size: 1.7rem;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+    h2.sugestao-titulo {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h2.sugestao-titulo {
+        font-size: 1.3rem;
+    }
+}

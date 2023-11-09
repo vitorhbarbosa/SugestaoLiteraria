@@ -1,0 +1,41 @@
+/* Menu Hamburguer */
+
+.menu-hamburguer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburguer-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburguer-icon .bar {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+}
+
+@media (max-width: 950px) {
+  .hamburguer-icon {
+      display: flex;
+    }
+    .navegador-lista {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+    }
+    
+    .navegador-lista-item {
+      text-align: center;
+      margin: 10px 0;
+    }
+}
+
+

@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.fonteDiferente {
+    font-family: "Libre Baskerville", serif;
+}
+
+.navegador {
+    background-color: var(--branco);
+    padding: 1rem 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-principal {
+    color: var(--marrom-primario);
+    font-size: 2rem;
+    align-self: center;
+    font-weight: 700;
+}
+
+.navegador-lista {
+    display: flex;
+    align-items: center;
+}
+
+.navegador-lista-item-central {
+    margin: 1rem;
+}
+
+.texto-navegador {
+    color: var(--marrom-primario);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.botao-cabecalho {
+    border-radius: 4px;
+    background-color: var(--marrom-primario);
+    background-image: url("../imagens/icones/Lightbulb.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px);
+    padding: 8px 12px;
+    padding-right: calc(1.2rem + 8px);
+    color: var(--branco);
+}
+
+/* Responsivo */
+
+@media (max-width: 1200px) {
+    .titulo-principal {
+        font-size: 1.5rem;
+    }
+    .texto-navegador {
+        color: var(--marrom-primario);
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .botao-cabecalho {
+        color: var(--branco);
+        background-size: 15px;
+    }
+}
+
+/* MOBILE*/
+
+@media (max-width: 1000px) {
+    .titulo-principal {
+        font-size: 1rem;
+    }
+    .texto-navegador {
+        color: var(--marrom-primario);
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+    .botao-cabecalho {
+        color: var(--branco);
+        background-size: 13px;
+        padding: 6px 10px;
+        padding-right: calc(1rem + 8px);;
+    }
+}
+
+@media (max-width: 900px) {
+    .titulo-principal {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo-principal {
+        font-size: 0.9rem;
+    }
+}
+
+

@@ -1,0 +1,142 @@
+.texto-banner {
+    color: var(--marrom-primario);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 5rem;
+    
+    
+}
+
+.banner-container {
+    width: 35%;
+    padding: 2rem 15%;
+
+}
+
+.banner-lista {
+    display: flex;
+}
+
+.banner-botao {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--marrom-secundario);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.banner-botao-sugestao {
+    border-radius: 4px;
+    background-image: url("../imagens/icones/Lightbulb.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px);
+    padding: 8px 12px;
+    padding-right: calc(1.2rem + 8px);
+    margin-left: 1rem;
+}
+
+.banner {
+    background-image: url("../imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Responsivo */
+
+@media (max-width: 1200px) {
+    .texto-banner {
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+    }
+    .banner-lista {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .banner-botao-sugestao {
+        background-size: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .texto-banner {
+        font-size: 3rem;
+        margin-bottom: 2.8rem;
+    }
+    .banner-lista {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .texto-banner {
+        font-size: 2.3rem;
+        margin-bottom: 2.3rem;
+    }
+    .banner-lista {
+        font-size: 0.8rem;
+    }
+    
+    .banner-botao {
+        padding: 6px 15px
+    }
+    .banner-botao-sugestao {
+        background-size: 12px;
+        padding-right: calc(1rem + 8px)
+    }
+    
+}
+
+/* MOBILE*/
+
+@media (max-width: 1000px) {
+    .texto-banner {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .banner-lista {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .banner-botao {
+        padding: 6px 15px
+    }
+    .banner-botao-sugestao {
+        background-size: 12px;
+        padding-right: calc(1rem + 8px)
+    }
+}
+
+@media (max-width: 900px) {
+    .texto-banner {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        color: var(--bege-claro);
+    }
+    .banner-lista {
+        font-size: 1rem;
+    }
+    .banner-botao {
+        padding: 5px 11px
+    }
+    .banner-botao-sugestao {
+        background-size: 15px;
+        padding-right: calc(1.2rem + 8px)
+    }
+}
+
+@media (max-width: 500px) {
+    .texto-banner {
+        font-size: 1rem;
+    }
+    .banner-lista {
+        font-size: 0.5rem;
+    }
+    .banner-botao {
+        padding: 3px 11px
+    }
+    .banner-botao-sugestao {
+        background-size: 10px;
+        padding-right: calc(1rem + 8px)
+    }
+}
